@@ -1,0 +1,8 @@
+PIR1暫存器
+chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://ee.cgu.edu.tw/var/file/83/1083/img/476/uP108_SerialPort(Outline).pdf
+
+中文data sheet
+chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://datasheet.lcsc.com/lcsc/1809032035_Microchip-Tech-PIC16F1826-I-P_C145567.pdf
+
+spr位址
+https://gputils.sourceforge.io/html-help/PIC16LF1826-sfr.html

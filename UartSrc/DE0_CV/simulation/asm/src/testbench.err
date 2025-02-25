@@ -1,0 +1,4 @@
+Message[301] C:\PROGRAM FILES (X86)\MICROCHIP\MPASM SUITE\P16LF1826.INC 33 : MESSAGE: (Processor-header file mismatch.  Verify selected processor.)
+Message[302] C:\USERS\SAMWE\DESKTOP\112SENIOR\UARTSRC\DE0_CV\SIMULATION\ASM\SRC\TESTBENCH.ASM 24 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\SAMWE\DESKTOP\112SENIOR\UARTSRC\DE0_CV\SIMULATION\ASM\SRC\TESTBENCH.ASM 30 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\SAMWE\DESKTOP\112SENIOR\UARTSRC\DE0_CV\SIMULATION\ASM\SRC\TESTBENCH.ASM 56 : Register in operand not in bank 0.  Ensure that bank bits are correct.

@@ -1,0 +1,1433 @@
+# Reading C:/Quartus-lite-19.1.0.670-windows/components/modelsim_ase/tcl/vsim/pref.tcl
+# do DE0_CV_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/Quartus-lite-19.1.0.670-windows/components/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design {C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/Stack.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:07 on Sep 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design" C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/Stack.sv 
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# End time: 10:58:07 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design {C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/single_port_ram_128x8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:07 on Sep 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design" C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/single_port_ram_128x8.sv 
+# -- Compiling module single_port_ram_128x8
+# 
+# Top level modules:
+# 	single_port_ram_128x8
+# End time: 10:58:07 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design {C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/rs232_tx.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:07 on Sep 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design" C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/rs232_tx.sv 
+# -- Compiling module rs232_tx
+# 
+# Top level modules:
+# 	rs232_tx
+# End time: 10:58:08 on Sep 14,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design {C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/rs232_rx.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:08 on Sep 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design" C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/rs232_rx.sv 
+# -- Compiling module rs232_rx
+# 
+# Top level modules:
+# 	rs232_rx
+# End time: 10:58:08 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design {C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/rs232.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:08 on Sep 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design" C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/rs232.sv 
+# -- Compiling module rs232
+# 
+# Top level modules:
+# 	rs232
+# End time: 10:58:08 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design {C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/Program_Rom.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:08 on Sep 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design" C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/Program_Rom.sv 
+# -- Compiling module Program_Rom
+# 
+# Top level modules:
+# 	Program_Rom
+# End time: 10:58:08 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design {C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/DE0_CV.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:08 on Sep 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design" C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/DE0_CV.sv 
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+# End time: 10:58:08 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design {C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/cpu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:08 on Sep 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design" C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/cpu.sv 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 10:58:08 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+do sim.do
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 10:58:13 on Sep 14,2023
+# ** Error: (vsim-3170) Could not find 'testbench'.
+#         Searched libraries:
+#             C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 1
+do compile.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:17 on Sep 14,2023
+# vlog -reportprogress 300 ../tb/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 10:58:17 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:17 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232.sv 
+# -- Compiling module rs232
+# 
+# Top level modules:
+# 	rs232
+# End time: 10:58:17 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:17 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_rx.sv 
+# -- Compiling module rs232_rx
+# 
+# Top level modules:
+# 	rs232_rx
+# End time: 10:58:17 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:17 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_tx.sv 
+# -- Compiling module rs232_tx
+# 
+# Top level modules:
+# 	rs232_tx
+# End time: 10:58:17 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:17 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Low_Pass_Filter.sv 
+# -- Compiling module Low_Pass_Filter
+# 
+# Top level modules:
+# 	Low_Pass_Filter
+# End time: 10:58:17 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:17 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/DE0_CV.sv 
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+# End time: 10:58:17 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:18 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/cpu.sv 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 10:58:18 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:18 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Program_Rom.sv 
+# -- Compiling module Program_Rom
+# 
+# Top level modules:
+# 	Program_Rom
+# End time: 10:58:18 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:18 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/single_port_ram_128x8.sv 
+# -- Compiling module single_port_ram_128x8
+# 
+# Top level modules:
+# 	single_port_ram_128x8
+# End time: 10:58:18 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:18 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Stack.sv 
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# End time: 10:58:18 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do s k
+# Cannot open macro file: s
+do sim.do
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 10:58:13 on Sep 14,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.rs232
+# Loading work.rs232_rx
+# Loading work.rs232_tx
+# Loading work.cpu
+# Loading work.Program_Rom
+# Loading work.single_port_ram_128x8
+# Loading work.Stack
+# .main_pane.structure.interior.cs.body.struct .main_pane.wave.interior.cs.body.pw.wf .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../tb/testbench.sv(111)
+#    Time: 3048480 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../tb/testbench.sv line 111
+do compile.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:29 on Sep 14,2023
+# vlog -reportprogress 300 ../tb/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 12:10:29 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:29 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232.sv 
+# -- Compiling module rs232
+# 
+# Top level modules:
+# 	rs232
+# End time: 12:10:29 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:29 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_rx.sv 
+# -- Compiling module rs232_rx
+# 
+# Top level modules:
+# 	rs232_rx
+# End time: 12:10:29 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:29 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_tx.sv 
+# -- Compiling module rs232_tx
+# 
+# Top level modules:
+# 	rs232_tx
+# End time: 12:10:29 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:29 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Low_Pass_Filter.sv 
+# -- Compiling module Low_Pass_Filter
+# 
+# Top level modules:
+# 	Low_Pass_Filter
+# End time: 12:10:29 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:29 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/DE0_CV.sv 
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+# End time: 12:10:29 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:29 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/cpu.sv 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 12:10:29 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:29 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Program_Rom.sv 
+# -- Compiling module Program_Rom
+# 
+# Top level modules:
+# 	Program_Rom
+# End time: 12:10:29 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:29 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/single_port_ram_128x8.sv 
+# -- Compiling module single_port_ram_128x8
+# 
+# Top level modules:
+# 	single_port_ram_128x8
+# End time: 12:10:29 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:29 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Stack.sv 
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# End time: 12:10:29 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do sim.do
+# End time: 12:10:35 on Sep 14,2023, Elapsed time: 1:12:22
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 12:10:35 on Sep 14,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.rs232
+# Loading work.rs232_rx
+# Loading work.rs232_tx
+# Loading work.cpu
+# Loading work.Program_Rom
+# Loading work.single_port_ram_128x8
+# Loading work.Stack
+# .main_pane.structure.interior.cs.body.struct .main_pane.wave.interior.cs.body.pw.wf .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../tb/testbench.sv(111)
+#    Time: 3048480 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../tb/testbench.sv line 111
+do compile.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:51 on Sep 14,2023
+# vlog -reportprogress 300 ../tb/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 12:12:51 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:51 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232.sv 
+# -- Compiling module rs232
+# 
+# Top level modules:
+# 	rs232
+# End time: 12:12:51 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:51 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_rx.sv 
+# -- Compiling module rs232_rx
+# 
+# Top level modules:
+# 	rs232_rx
+# End time: 12:12:51 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:51 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_tx.sv 
+# -- Compiling module rs232_tx
+# 
+# Top level modules:
+# 	rs232_tx
+# End time: 12:12:52 on Sep 14,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:52 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Low_Pass_Filter.sv 
+# -- Compiling module Low_Pass_Filter
+# 
+# Top level modules:
+# 	Low_Pass_Filter
+# End time: 12:12:52 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:52 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/DE0_CV.sv 
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+# End time: 12:12:52 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:52 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/cpu.sv 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 12:12:52 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:52 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Program_Rom.sv 
+# -- Compiling module Program_Rom
+# 
+# Top level modules:
+# 	Program_Rom
+# End time: 12:12:52 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:52 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/single_port_ram_128x8.sv 
+# -- Compiling module single_port_ram_128x8
+# 
+# Top level modules:
+# 	single_port_ram_128x8
+# End time: 12:12:52 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:52 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Stack.sv 
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# End time: 12:12:52 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do sim.do
+# End time: 12:12:57 on Sep 14,2023, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 12:12:57 on Sep 14,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.rs232
+# Loading work.rs232_rx
+# Loading work.rs232_tx
+# Loading work.cpu
+# Loading work.Program_Rom
+# Loading work.single_port_ram_128x8
+# Loading work.Stack
+# .main_pane.structure.interior.cs.body.struct .main_pane.wave.interior.cs.body.pw.wf .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../tb/testbench.sv(111)
+#    Time: 3048480 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../tb/testbench.sv line 111
+do compile.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:17 on Sep 14,2023
+# vlog -reportprogress 300 ../tb/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 12:17:17 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:17 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232.sv 
+# -- Compiling module rs232
+# 
+# Top level modules:
+# 	rs232
+# End time: 12:17:17 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:17 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_rx.sv 
+# -- Compiling module rs232_rx
+# 
+# Top level modules:
+# 	rs232_rx
+# End time: 12:17:17 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:17 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_tx.sv 
+# -- Compiling module rs232_tx
+# 
+# Top level modules:
+# 	rs232_tx
+# End time: 12:17:17 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:18 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Low_Pass_Filter.sv 
+# -- Compiling module Low_Pass_Filter
+# 
+# Top level modules:
+# 	Low_Pass_Filter
+# End time: 12:17:18 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:18 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/DE0_CV.sv 
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+# End time: 12:17:18 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:18 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/cpu.sv 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 12:17:18 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:18 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Program_Rom.sv 
+# -- Compiling module Program_Rom
+# 
+# Top level modules:
+# 	Program_Rom
+# End time: 12:17:18 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:18 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/single_port_ram_128x8.sv 
+# -- Compiling module single_port_ram_128x8
+# 
+# Top level modules:
+# 	single_port_ram_128x8
+# End time: 12:17:18 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:18 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Stack.sv 
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# End time: 12:17:18 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do sim.do
+# End time: 12:17:22 on Sep 14,2023, Elapsed time: 0:04:25
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 12:17:22 on Sep 14,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.rs232
+# Loading work.rs232_rx
+# Loading work.rs232_tx
+# Loading work.cpu
+# Loading work.Program_Rom
+# Loading work.single_port_ram_128x8
+# Loading work.Stack
+# .main_pane.structure.interior.cs.body.struct .main_pane.wave.interior.cs.body.pw.wf .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../tb/testbench.sv(111)
+#    Time: 3048480 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../tb/testbench.sv line 111
+add wave -position 10  sim:/testbench/cpu1/port_b_out
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/simulation/modelsim/wave.do
+add wave -position end  sim:/testbench/cpu1/PIR1
+add wave -position end  sim:/testbench/cpu1/ir
+add wave -position end  sim:/testbench/cpu1/PIR1
+do compile.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:55 on Sep 14,2023
+# vlog -reportprogress 300 ../tb/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 12:45:55 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:55 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232.sv 
+# -- Compiling module rs232
+# 
+# Top level modules:
+# 	rs232
+# End time: 12:45:55 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:55 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_rx.sv 
+# -- Compiling module rs232_rx
+# 
+# Top level modules:
+# 	rs232_rx
+# End time: 12:45:55 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:55 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_tx.sv 
+# -- Compiling module rs232_tx
+# 
+# Top level modules:
+# 	rs232_tx
+# End time: 12:45:55 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:55 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Low_Pass_Filter.sv 
+# -- Compiling module Low_Pass_Filter
+# 
+# Top level modules:
+# 	Low_Pass_Filter
+# End time: 12:45:55 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:55 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/DE0_CV.sv 
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+# End time: 12:45:55 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:55 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/cpu.sv 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 12:45:55 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:55 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Program_Rom.sv 
+# -- Compiling module Program_Rom
+# 
+# Top level modules:
+# 	Program_Rom
+# End time: 12:45:56 on Sep 14,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:56 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/single_port_ram_128x8.sv 
+# -- Compiling module single_port_ram_128x8
+# 
+# Top level modules:
+# 	single_port_ram_128x8
+# End time: 12:45:56 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:56 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Stack.sv 
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# End time: 12:45:56 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do sim.do
+# End time: 12:46:02 on Sep 14,2023, Elapsed time: 0:28:40
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 12:46:02 on Sep 14,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.rs232
+# Loading work.rs232_rx
+# Loading work.rs232_tx
+# Loading work.cpu
+# Loading work.Program_Rom
+# Loading work.single_port_ram_128x8
+# Loading work.Stack
+# .main_pane.structure.interior.cs.body.struct .main_pane.wave.interior.cs.body.pw.wf .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../tb/testbench.sv(156)
+#    Time: 6721320 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../tb/testbench.sv line 156
+do compile.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:15 on Sep 14,2023
+# vlog -reportprogress 300 ../tb/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 12:52:15 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:15 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232.sv 
+# -- Compiling module rs232
+# 
+# Top level modules:
+# 	rs232
+# End time: 12:52:15 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:15 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_rx.sv 
+# -- Compiling module rs232_rx
+# 
+# Top level modules:
+# 	rs232_rx
+# End time: 12:52:15 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:15 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_tx.sv 
+# -- Compiling module rs232_tx
+# 
+# Top level modules:
+# 	rs232_tx
+# End time: 12:52:16 on Sep 14,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:16 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Low_Pass_Filter.sv 
+# -- Compiling module Low_Pass_Filter
+# 
+# Top level modules:
+# 	Low_Pass_Filter
+# End time: 12:52:16 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:16 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/DE0_CV.sv 
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+# End time: 12:52:16 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:16 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/cpu.sv 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 12:52:16 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:16 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Program_Rom.sv 
+# -- Compiling module Program_Rom
+# 
+# Top level modules:
+# 	Program_Rom
+# End time: 12:52:16 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:16 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/single_port_ram_128x8.sv 
+# -- Compiling module single_port_ram_128x8
+# 
+# Top level modules:
+# 	single_port_ram_128x8
+# End time: 12:52:16 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:16 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Stack.sv 
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# End time: 12:52:16 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do sim.do
+# End time: 12:52:20 on Sep 14,2023, Elapsed time: 0:06:18
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 12:52:20 on Sep 14,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.rs232
+# Loading work.rs232_rx
+# Loading work.rs232_tx
+# Loading work.cpu
+# Loading work.Program_Rom
+# Loading work.single_port_ram_128x8
+# Loading work.Stack
+# .main_pane.structure.interior.cs.body.struct .main_pane.wave.interior.cs.body.pw.wf .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../tb/testbench.sv(156)
+#    Time: 6721320 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../tb/testbench.sv line 156
+do compile.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:53 on Sep 14,2023
+# vlog -reportprogress 300 ../tb/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 13:03:54 on Sep 14,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:54 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232.sv 
+# -- Compiling module rs232
+# 
+# Top level modules:
+# 	rs232
+# End time: 13:03:54 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:54 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_rx.sv 
+# -- Compiling module rs232_rx
+# 
+# Top level modules:
+# 	rs232_rx
+# End time: 13:03:54 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:54 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_tx.sv 
+# -- Compiling module rs232_tx
+# 
+# Top level modules:
+# 	rs232_tx
+# End time: 13:03:54 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:54 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Low_Pass_Filter.sv 
+# -- Compiling module Low_Pass_Filter
+# 
+# Top level modules:
+# 	Low_Pass_Filter
+# End time: 13:03:54 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:54 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/DE0_CV.sv 
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+# End time: 13:03:54 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:54 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/cpu.sv 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 13:03:54 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:54 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Program_Rom.sv 
+# -- Compiling module Program_Rom
+# 
+# Top level modules:
+# 	Program_Rom
+# End time: 13:03:54 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:54 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/single_port_ram_128x8.sv 
+# -- Compiling module single_port_ram_128x8
+# 
+# Top level modules:
+# 	single_port_ram_128x8
+# End time: 13:03:54 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:54 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Stack.sv 
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# End time: 13:03:54 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do sim.do
+# End time: 13:03:58 on Sep 14,2023, Elapsed time: 0:11:38
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 13:03:58 on Sep 14,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.rs232
+# Loading work.rs232_rx
+# Loading work.rs232_tx
+# Loading work.cpu
+# Loading work.Program_Rom
+# Loading work.single_port_ram_128x8
+# Loading work.Stack
+# .main_pane.structure.interior.cs.body.struct .main_pane.wave.interior.cs.body.pw.wf .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../tb/testbench.sv(156)
+#    Time: 6721320 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../tb/testbench.sv line 156
+add wave -position 10  sim:/testbench/cpu1/W_q
+add wave -position end  sim:/testbench/cpu1/ram1/ram[25]
+add wave -position end  sim:/testbench/cpu1/ram1/ram[37]
+do compile.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:15 on Sep 14,2023
+# vlog -reportprogress 300 ../tb/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 13:18:15 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:15 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232.sv 
+# -- Compiling module rs232
+# 
+# Top level modules:
+# 	rs232
+# End time: 13:18:15 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:15 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_rx.sv 
+# -- Compiling module rs232_rx
+# 
+# Top level modules:
+# 	rs232_rx
+# End time: 13:18:15 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:15 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_tx.sv 
+# -- Compiling module rs232_tx
+# 
+# Top level modules:
+# 	rs232_tx
+# End time: 13:18:15 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:15 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Low_Pass_Filter.sv 
+# -- Compiling module Low_Pass_Filter
+# 
+# Top level modules:
+# 	Low_Pass_Filter
+# End time: 13:18:15 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:16 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/DE0_CV.sv 
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+# End time: 13:18:16 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:16 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/cpu.sv 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 13:18:16 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:16 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Program_Rom.sv 
+# -- Compiling module Program_Rom
+# 
+# Top level modules:
+# 	Program_Rom
+# End time: 13:18:16 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:16 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/single_port_ram_128x8.sv 
+# -- Compiling module single_port_ram_128x8
+# 
+# Top level modules:
+# 	single_port_ram_128x8
+# End time: 13:18:16 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:16 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Stack.sv 
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# End time: 13:18:16 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do sim.do
+# End time: 13:18:20 on Sep 14,2023, Elapsed time: 0:14:22
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 13:18:20 on Sep 14,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.rs232
+# Loading work.rs232_rx
+# Loading work.rs232_tx
+# Loading work.cpu
+# Loading work.Program_Rom
+# Loading work.single_port_ram_128x8
+# Loading work.Stack
+# .main_pane.structure.interior.cs.body.struct .main_pane.wave.interior.cs.body.pw.wf .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../tb/testbench.sv(156)
+#    Time: 6721320 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../tb/testbench.sv line 156
+add wave -position end  sim:/testbench/cpu1/ram1/ram
+add wave -position end  sim:/testbench/cpu1/ram1/ram[35]
+do compile.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:21:04 on Sep 14,2023
+# vlog -reportprogress 300 ../tb/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 13:21:04 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:21:04 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232.sv 
+# -- Compiling module rs232
+# 
+# Top level modules:
+# 	rs232
+# End time: 13:21:04 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:21:04 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_rx.sv 
+# -- Compiling module rs232_rx
+# 
+# Top level modules:
+# 	rs232_rx
+# End time: 13:21:04 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:21:04 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_tx.sv 
+# -- Compiling module rs232_tx
+# 
+# Top level modules:
+# 	rs232_tx
+# End time: 13:21:04 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:21:04 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Low_Pass_Filter.sv 
+# -- Compiling module Low_Pass_Filter
+# 
+# Top level modules:
+# 	Low_Pass_Filter
+# End time: 13:21:04 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:21:05 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/DE0_CV.sv 
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+# End time: 13:21:05 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:21:05 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/cpu.sv 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 13:21:05 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:21:05 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Program_Rom.sv 
+# -- Compiling module Program_Rom
+# 
+# Top level modules:
+# 	Program_Rom
+# End time: 13:21:05 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:21:05 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/single_port_ram_128x8.sv 
+# -- Compiling module single_port_ram_128x8
+# 
+# Top level modules:
+# 	single_port_ram_128x8
+# End time: 13:21:05 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:21:05 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Stack.sv 
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# End time: 13:21:05 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do sim.do
+# End time: 13:21:09 on Sep 14,2023, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 13:21:09 on Sep 14,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.rs232
+# Loading work.rs232_rx
+# Loading work.rs232_tx
+# Loading work.cpu
+# Loading work.Program_Rom
+# Loading work.single_port_ram_128x8
+# Loading work.Stack
+# .main_pane.structure.interior.cs.body.struct .main_pane.wave.interior.cs.body.pw.wf .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../tb/testbench.sv(156)
+#    Time: 6721320 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../tb/testbench.sv line 156
+add wave -position end  sim:/testbench/cpu1/ram1/ram[37]
+add wave -position end  sim:/testbench/cpu1/W_q
+do compile.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:11 on Sep 14,2023
+# vlog -reportprogress 300 ../tb/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 13:27:11 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:11 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232.sv 
+# -- Compiling module rs232
+# 
+# Top level modules:
+# 	rs232
+# End time: 13:27:11 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:11 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_rx.sv 
+# -- Compiling module rs232_rx
+# 
+# Top level modules:
+# 	rs232_rx
+# End time: 13:27:11 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:11 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_tx.sv 
+# -- Compiling module rs232_tx
+# 
+# Top level modules:
+# 	rs232_tx
+# End time: 13:27:11 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:11 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Low_Pass_Filter.sv 
+# -- Compiling module Low_Pass_Filter
+# 
+# Top level modules:
+# 	Low_Pass_Filter
+# End time: 13:27:11 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:11 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/DE0_CV.sv 
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+# End time: 13:27:11 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:11 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/cpu.sv 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 13:27:11 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:11 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Program_Rom.sv 
+# -- Compiling module Program_Rom
+# 
+# Top level modules:
+# 	Program_Rom
+# End time: 13:27:11 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:11 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/single_port_ram_128x8.sv 
+# -- Compiling module single_port_ram_128x8
+# 
+# Top level modules:
+# 	single_port_ram_128x8
+# End time: 13:27:11 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:11 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Stack.sv 
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# End time: 13:27:11 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do sim.do
+# End time: 13:27:16 on Sep 14,2023, Elapsed time: 0:06:07
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 13:27:16 on Sep 14,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.rs232
+# Loading work.rs232_rx
+# Loading work.rs232_tx
+# Loading work.cpu
+# Loading work.Program_Rom
+# Loading work.single_port_ram_128x8
+# Loading work.Stack
+# .main_pane.structure.interior.cs.body.struct .main_pane.wave.interior.cs.body.pw.wf .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../tb/testbench.sv(156)
+#    Time: 6721320 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../tb/testbench.sv line 156
+add wave -position end  sim:/testbench/cpu1/W_q
+do compile.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:57 on Sep 14,2023
+# vlog -reportprogress 300 ../tb/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 13:39:57 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:57 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232.sv 
+# -- Compiling module rs232
+# 
+# Top level modules:
+# 	rs232
+# End time: 13:39:57 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:58 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_rx.sv 
+# -- Compiling module rs232_rx
+# 
+# Top level modules:
+# 	rs232_rx
+# End time: 13:39:58 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:58 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_tx.sv 
+# -- Compiling module rs232_tx
+# 
+# Top level modules:
+# 	rs232_tx
+# End time: 13:39:58 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:58 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Low_Pass_Filter.sv 
+# -- Compiling module Low_Pass_Filter
+# 
+# Top level modules:
+# 	Low_Pass_Filter
+# End time: 13:39:58 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:58 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/DE0_CV.sv 
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+# End time: 13:39:58 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:58 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/cpu.sv 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 13:39:58 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:58 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Program_Rom.sv 
+# -- Compiling module Program_Rom
+# 
+# Top level modules:
+# 	Program_Rom
+# End time: 13:39:58 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:58 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/single_port_ram_128x8.sv 
+# -- Compiling module single_port_ram_128x8
+# 
+# Top level modules:
+# 	single_port_ram_128x8
+# End time: 13:39:58 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:58 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Stack.sv 
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# End time: 13:39:58 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do sim.do
+# End time: 13:40:02 on Sep 14,2023, Elapsed time: 0:12:46
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 13:40:02 on Sep 14,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.rs232
+# Loading work.rs232_rx
+# Loading work.rs232_tx
+# Loading work.cpu
+# Loading work.Program_Rom
+# Loading work.single_port_ram_128x8
+# Loading work.Stack
+# .main_pane.structure.interior.cs.body.struct .main_pane.wave.interior.cs.body.pw.wf .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../tb/testbench.sv(156)
+#    Time: 6721320 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../tb/testbench.sv line 156
+add wave -position end  sim:/testbench/cpu1/ir
+add wave -position end  sim:/testbench/cpu1/W_q
+add wave -position end  sim:/testbench/cpu1/ram1/data
+add wave -position end  sim:/testbench/cpu1/ram1/addr
+add wave -position end  sim:/testbench/cpu1/ram1/ram_en
+add wave -position end  sim:/testbench/cpu1/ram1/q
+add wave -position insertpoint sim:/testbench/cpu1/ram1/*
+do compile.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:28:00 on Sep 14,2023
+# vlog -reportprogress 300 ../tb/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 14:28:01 on Sep 14,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:28:01 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232.sv 
+# -- Compiling module rs232
+# 
+# Top level modules:
+# 	rs232
+# End time: 14:28:01 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:28:01 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_rx.sv 
+# -- Compiling module rs232_rx
+# 
+# Top level modules:
+# 	rs232_rx
+# End time: 14:28:01 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:28:01 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/rs232_tx.sv 
+# -- Compiling module rs232_tx
+# 
+# Top level modules:
+# 	rs232_tx
+# End time: 14:28:01 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:28:01 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Low_Pass_Filter.sv 
+# -- Compiling module Low_Pass_Filter
+# 
+# Top level modules:
+# 	Low_Pass_Filter
+# End time: 14:28:01 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:28:01 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/DE0_CV.sv 
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+# End time: 14:28:01 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:28:01 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/cpu.sv 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 14:28:01 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:28:01 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Program_Rom.sv 
+# -- Compiling module Program_Rom
+# 
+# Top level modules:
+# 	Program_Rom
+# End time: 14:28:01 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:28:01 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/single_port_ram_128x8.sv 
+# -- Compiling module single_port_ram_128x8
+# 
+# Top level modules:
+# 	single_port_ram_128x8
+# End time: 14:28:01 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:28:01 on Sep 14,2023
+# vlog -reportprogress 300 ../../design/Stack.sv 
+# -- Compiling module Stack
+# 
+# Top level modules:
+# 	Stack
+# End time: 14:28:01 on Sep 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do sim.do
+# End time: 14:28:04 on Sep 14,2023, Elapsed time: 0:48:02
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 14:28:04 on Sep 14,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.rs232
+# Loading work.rs232_rx
+# Loading work.rs232_tx
+# Loading work.cpu
+# Loading work.Program_Rom
+# Loading work.single_port_ram_128x8
+# Loading work.Stack
+# .main_pane.structure.interior.cs.body.struct .main_pane.wave.interior.cs.body.pw.wf .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../tb/testbench.sv(156)
+#    Time: 6721320 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../tb/testbench.sv line 156
+# End time: 14:45:22 on Sep 14,2023, Elapsed time: 0:17:18
+# Errors: 0, Warnings: 0

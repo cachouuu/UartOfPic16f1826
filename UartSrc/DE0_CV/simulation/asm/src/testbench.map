@@ -1,0 +1,40 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Thu Sep 14 14:34:47 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00004a
+                   .cinit    romdata   0x000025    program   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000026      
+            39 out of 2311 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   divide   0x000011    program     static C:\Users\samwe\Desktop\112Senior\UartSrc\DE0_CV\simulation\asm\src\testbench.asm
+                     init   0x000000    program     static C:\Users\samwe\Desktop\112Senior\UartSrc\DE0_CV\simulation\asm\src\testbench.asm
+                 polling1   0x000006    program     static C:\Users\samwe\Desktop\112Senior\UartSrc\DE0_CV\simulation\asm\src\testbench.asm
+                 polling2   0x00000b    program     static C:\Users\samwe\Desktop\112Senior\UartSrc\DE0_CV\simulation\asm\src\testbench.asm
+                remainder   0x000015    program     static C:\Users\samwe\Desktop\112Senior\UartSrc\DE0_CV\simulation\asm\src\testbench.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     init   0x000000    program     static C:\Users\samwe\Desktop\112Senior\UartSrc\DE0_CV\simulation\asm\src\testbench.asm
+                 polling1   0x000006    program     static C:\Users\samwe\Desktop\112Senior\UartSrc\DE0_CV\simulation\asm\src\testbench.asm
+                 polling2   0x00000b    program     static C:\Users\samwe\Desktop\112Senior\UartSrc\DE0_CV\simulation\asm\src\testbench.asm
+                   divide   0x000011    program     static C:\Users\samwe\Desktop\112Senior\UartSrc\DE0_CV\simulation\asm\src\testbench.asm
+                remainder   0x000015    program     static C:\Users\samwe\Desktop\112Senior\UartSrc\DE0_CV\simulation\asm\src\testbench.asm
+
+

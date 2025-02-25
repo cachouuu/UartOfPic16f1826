@@ -1,0 +1,10 @@
+
+State Machine - |DE0_CV|cpu:cpu1|pic_ps
+Name pic_ps.110 pic_ps.101 pic_ps.100 pic_ps.011 pic_ps.010 pic_ps.001 pic_ps.000 
+pic_ps.000 0 0 0 0 0 0 0 
+pic_ps.001 0 0 0 0 0 1 1 
+pic_ps.010 0 0 0 0 1 0 1 
+pic_ps.011 0 0 0 1 0 0 1 
+pic_ps.100 0 0 1 0 0 0 1 
+pic_ps.101 0 1 0 0 0 0 1 
+pic_ps.110 1 0 0 0 0 0 1 

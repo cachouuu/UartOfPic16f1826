@@ -1,0 +1,8 @@
+Warning (10273): Verilog HDL warning at Decoder4x16.sv(25): extended using "x" or "z" File: C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/Decoder4x16.sv Line: 25
+Warning (10268): Verilog HDL information at rs232_tx.sv(67): always construct contains both blocking and non-blocking assignments File: C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/rs232_tx.sv Line: 67
+Warning (10268): Verilog HDL information at rs232_rx.sv(100): always construct contains both blocking and non-blocking assignments File: C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/rs232_rx.sv Line: 100
+Info (10281): Verilog HDL Declaration information at rs232_rx.sv(5): object "tx_ack" differs only in case from object "TX_ACK" in the same scope File: C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/rs232_rx.sv Line: 5
+Warning (10273): Verilog HDL warning at testbench.sv(102): extended using "x" or "z" File: C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/simulation/tb/testbench.sv Line: 102
+Warning (10273): Verilog HDL warning at testbench.sv(116): extended using "x" or "z" File: C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/simulation/tb/testbench.sv Line: 116
+Warning (10273): Verilog HDL warning at testbench.sv(130): extended using "x" or "z" File: C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/simulation/tb/testbench.sv Line: 130
+Warning (10273): Verilog HDL warning at testbench.sv(144): extended using "x" or "z" File: C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/simulation/tb/testbench.sv Line: 144

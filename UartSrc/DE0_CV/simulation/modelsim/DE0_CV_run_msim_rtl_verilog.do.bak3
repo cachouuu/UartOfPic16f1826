@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design {C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/FIFO.v}
+vlog -sv -work work +incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/UART {C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/UART/rs232_tx.sv}
+vlog -sv -work work +incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/UART {C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/UART/rs232_rx.sv}
+vlog -sv -work work +incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/UART {C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/UART/rs232.sv}
+vlog -sv -work work +incdir+C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/UART {C:/Users/samwe/Desktop/112Senior/UartSrc/DE0_CV/design/UART/DE0_CV.sv}
+
